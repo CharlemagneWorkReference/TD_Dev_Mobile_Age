@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Age</string>
+
+    <string name="name">Votre Nom</string>
+    <string name="sexe">Sexe</string>
+    <string name="man">Masculin</string>
+    <string name="woman">Féminin</string>
+    <string name="compute">Calcul d\'Age</string>
+    <string name="datenaiss">Date de Naissance</string>
+
+    <string name="dear">Mon cher</string>
+
+    <string name="save">Valider</string>
+
+    <string name="err_input">Veuillez entrer une valeur</string>
+    <string name="title_activity_message">Message</string>
+</resources>
