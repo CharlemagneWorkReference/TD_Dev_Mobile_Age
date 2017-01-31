@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton man,woman;
     private DatePicker picker;
     private CoordinatorLayout bgLay;
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         woman = (RadioButton)findViewById(R.id.woman);
         picker = (DatePicker)findViewById(R.id.picker);
         bgLay = (CoordinatorLayout)findViewById(R.id.bg_layout);
+        button = (Button)findViewById(R.id.val);
 
         nameLay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +50,13 @@ public class MainActivity extends AppCompatActivity {
                 if(nameLay.isErrorEnabled()){
                     nameLay.setErrorEnabled(false);
                 }
+            }
+        });
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                compute(MainActivity.this);
             }
         });
     }

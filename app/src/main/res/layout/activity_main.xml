@@ -88,6 +88,14 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp" />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:layout_below="@id/picker"
+                android:layout_centerInParent="true"
+                android:id="@+id/val"/>
+
         </RelativeLayout>
 
     </ScrollView>
