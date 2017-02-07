@@ -89,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
 
             if(man.isChecked()){
                 res = "Mon cher " + name.getText().toString() + " tu as " + age + " ans";
-                Toast.makeText(context,res,Toast.LENGTH_LONG).show();
+                //Toast.makeText(context,res,Toast.LENGTH_LONG).show();
             }else{
                 res = "Ma chere " + name.getText().toString() + " tu as " + age + " ans";
-                Toast.makeText(context,res,Toast.LENGTH_LONG).show();
+                //Toast.makeText(context,res,Toast.LENGTH_LONG).show();
             }
 
             if(age == 18){
